@@ -87,6 +87,7 @@ script = ExtResource( 3 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Enemy_Container/Bat"]
 frames = SubResource( 13 )
 animation = "Flying"
+playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy_Container/Bat"]
 shape = SubResource( 14 )
